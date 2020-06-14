@@ -26,8 +26,8 @@ jQuery(document).ready(function () {
   $QRbirth = jQuery("#profile_data .birth .td").html();
   $QRphone = jQuery("#profile_data .phone .td").html();
   $QRemail = jQuery("#profile_data .email .td").html();
-  $QRsite = jQuery("#profile_data .website .td").html();
-  $QRsiteClean = jQuery("#profile_data .email .td a").attr("href");
+  $QRsite = jQuery("#profile_data .email .td").html();
+  $QRsiteClean = jQuery("#profile_data .website .td a").attr("href");
   $QRadress = jQuery("#profile_data .address .td").html();
 
   //Qcode
